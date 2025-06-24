@@ -36,7 +36,7 @@ def imshow(img):
 
 # get some random training images
 dataiter = iter(trainloader)
-images, labels = dataiter.next()
+images, labels = next(dataiter)
 
 # show images
 imshow(torchvision.utils.make_grid(images))
@@ -133,7 +133,7 @@ print('Trained model is saved')
 
 #%% evaluate the model
 dataiter = iter(testloader)
-images, labels = dataiter.next()
+images, labels = next(dataiter)
 
 # print images
 imshow(torchvision.utils.make_grid(images))
