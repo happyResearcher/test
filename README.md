@@ -1,4 +1,4 @@
-# Test on running a pytorch program with CPU/ 1 GPU/ Multi-GPU.
+# Running a pytorch program with CPU/ 1 GPU/ Multi-GPU.
 We give an example to show how to run a Python program with CPU, 1 GPU and multi-GPU.
 The codes used in this example is modified from:
 •	Tutorials > Deep Learning with PyTorch: A 60 Minute Blitz > Training a Classifier
